@@ -3,11 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-        </p>
-
-      </header>
+      <div className="App-header">
+        <div className = 'col sidebar'>Side</div>
+        <div className = 'col main'>Main</div>
+      </div>
     </div>
   );
 }
