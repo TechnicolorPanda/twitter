@@ -3,3 +3,33 @@
   border-radius: 50%;
   float: right;
 }
+
+#bird:hover {
+  background-color: lightblue;
+}
+
+#house {
+  width: 3em;
+  float: right;
+}
+
+#hashtag {
+  width: 3em;
+  float: right;
+}
+
+#bell {
+  width: 2.5em;
+  float: right;
+}
+
+#envelope {
+  width: 3em;
+  float: right;
+}
+
+.sidebar {
+  border-right-style: solid;
+  border-color:  lightgray;
+  border-width: 1px;
+}

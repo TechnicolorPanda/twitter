@@ -3,10 +3,12 @@
   font-family: sans-serif;
   line-height: 1.5;
   flex-direction: row;
+  height: 100%;
 }
 
 .App-header {
   width: 100%;
+  height: 100%;
   flex-direction: row;
   position: relative;
   display: flex;
@@ -22,15 +24,18 @@
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   padding: 1rem;
+  min-height: 100%;
 }
 
 .sidebar {
   width: 20%;
+  min-height: 100%;
   background-color: white;
 }
 
 .main {
   width: 80%;
+  min-height: 100%;
   background-color: white;
   flex: 1;
 }
