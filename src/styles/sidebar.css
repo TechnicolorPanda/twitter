@@ -1,35 +1,59 @@
+.sidebar {
+  border-right: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #bird {
   width: 3em;
   border-radius: 50%;
-  float: right;
+  float: left;
 }
 
 #bird:hover {
   background-color: lightblue;
 }
 
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:#1DA1F2;
+}
+
 #house {
   width: 3em;
-  float: right;
+  float: left;
+  /* position: absolute; */
+}
+
+#explore, #messages, #notifications {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+}
+
+#explore:hover, #messages:hover, #notifications:hover {
+  color:#1DA1F2;
+  background-color: aliceblue;
+  border-radius: 10%;
+
 }
 
 #hashtag {
   width: 3em;
-  float: right;
+  float: left;
 }
 
 #bell {
   width: 2.5em;
-  float: right;
+  float: left;
 }
 
 #envelope {
   width: 3em;
-  float: right;
+  float: left;
 }
 
-.sidebar {
-  border-right-style: solid;
-  border-color:  lightgray;
-  border-width: 1px;
-}
