@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Sidebar from './Components/Sidebar';
+import Main from './Components/Main';
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
         <div className = 'col sidebar'>
           <Sidebar/>
         </div>
-        <div className = 'col main'>Home</div>
+        <div className = 'col main'>
+          <Main/>
+        </div>
       </div>
     </div>
   );
