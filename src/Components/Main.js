@@ -16,6 +16,7 @@ const Main = () => {
 
   return (
     <div className = 'main'>
+      <h3 id = 'home'>Home</h3>
       <form onSubmit={onSubmitTask}>
         <label htmlFor="input"></label>
         <input
@@ -24,7 +25,7 @@ const Main = () => {
           type="text"
           id="input"
         />
-        <button type="submit">Tweet</button>
+        <button type="submit" id="tweet">Tweet</button>
       </form>
       </div>
   )

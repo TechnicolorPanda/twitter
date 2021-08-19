@@ -1,6 +1,28 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+#home {
+  border-bottom: 1px solid lightgray;
+}
+
+#input {
+  border: none;
+  font-family: GT America, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  line-height: 1.5em;
+  color: gray;
+}
+
+#tweet {
+  background-color: #1DA1F2;
+  border: none;
+  font-family: GT America, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  color: white;
+  padding: .5em;
+  border-radius: 42%;
+
 }
 
